@@ -1,0 +1,11 @@
+Accession	1
+Isolate Number	2
+Last Name	3
+First Name	4
+Isolation Date	11
+Organism Name	12
+Drug Name	21
+Drug Info   22
+Drug Info Format Call,MIC
+Drugs per line	1
+Equipment	17

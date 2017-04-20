@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+	<test>
+		<test_name>ESBL Test</test_name>
+		<bacterium>Enterobacter</bacterium>
+		<bacterium>Escherichia</bacterium>
+		<bacterium>Klebsiella</bacterium>
+		<bacterium>Shigella</bacterium>
+		<condition number = "1" default = "failed">
+			<drug>
+				<name>Ceftazidime</name>
+				<if read_type = "Call" value = "R">
+					<condition_status>passed</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Ceftazidime</name>
+				<if read_type = "Call" value = "I">
+					<condition_status>passed</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Ceftriaxone</name>
+				<if read_type = "Call" value = "R">
+					<condition_status>passed</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Ceftriaxone</name>
+				<if read_type = "Call" value = "I">
+					<condition_status>passed</condition_status>
+				</if>
+			</drug>
+		</condition>
+		<required_condition>1</required_condition>
+		<result>ESBL</result>
+	</test>

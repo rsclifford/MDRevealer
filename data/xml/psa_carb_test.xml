@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+	<test>
+		<test_name>PSA Carb Test</test_name>
+		<bacterium>Pseudomonas</bacterium>
+		<condition number = "1" default = "passed">
+			<drug>
+				<name>Cefepime</name>
+				<if read_type = "Call" value = "S">
+					<condition_status>failed</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Cefotaxime</name>
+				<if read_type = "Call" value = "S">
+					<condition_status>failed</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Ceftazidime</name>
+				<if read_type = "Call" value = "S">
+					<condition_status>failed</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Ceftriaxone</name>
+				<if read_type = "Call" value = "S">
+					<condition_status>failed</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Ertapenem</name>
+				<if read_type = "Call" value = "S">
+					<condition_status>failed</condition_status>
+				</if>
+			</drug>
+		</condition>
+		<condition number = "2" default = "failed" number_required = "1">
+			<drug>
+				<name>Doripenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "4">
+					<condition_status>+</condition_status>
+				</if>
+				<name>Imipenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "4">
+					<condition_status>+</condition_status>
+				</if>
+				<name>Meropenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "4">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+		</condition>
+		<required_condition>1</required_condition>
+		<required_condition>2</required_condition>
+		<result>Carb</result>
+	</test>

@@ -1,0 +1,23 @@
+Last Name	1
+First Name	2
+Middle Initial	3
+DMIS ID	4
+SPIN Number	5
+SSN Prefix	6
+Social Security Number	7
+Date of Birth	8
+Gender	9
+Accession	10
+Isolation Date	11
+Culture Type	12
+Source	13
+Location Type	14
+Location	15
+Isolate Number	16
+Organism Name	17
+Alternate Organism Name	18
+Equipment	19
+Drug Info	20
+Drug Info Format	Name,MIC,Call
+Machine	dat
+Drugs per line	1

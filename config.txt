@@ -1,0 +1,18 @@
+Facility	0000
+
+#If you want the program to write its output files to the same place every
+#time, delete the # marks from the lines below and change the names of
+#"report.txt" and so on to what you want the outputs to be called.
+
+Default detailed report location	output/report.txt
+Default summary location	output/summary.txt
+Default spreadsheet location	output/spreadsheet.txt
+Default .dat location	output/dat.txt
+Default localized output	output/localized.txt
+
+Default MDR file	data/mdr.txt
+Default breakpoints file	data/breakpoints.txt
+Custom parser file	data/parsers/odprwh_parser.txt
+
+.dat output
+lastName	firstName	middleI	dmisId	spin	ssnPrefix	ssn	dob	gender	accession	isolationDate	cultureType	source	locationType	location	isolate	organism	alternateOrganism	equipment	antibiotic	mic	call

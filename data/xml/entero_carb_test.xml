@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+	<test>
+		<test_name>Enterobacteriacae Carb Test</test_name>
+		<bacterium>Citrobacter</bacterium>
+		<bacterium>Enterobacter</bacterium>
+		<bacterium>Escherichia</bacterium>
+		<bacterium>Kluyvera</bacterium>
+		<bacterium>Morganella</bacterium>
+		<bacterium>Pantoea</bacterium>
+		<bacterium>Providencia</bacterium>
+		<bacterium>Salmonella</bacterium>
+		<bacterium>Serratia</bacterium>
+		<bacterium>Shigella</bacterium>
+		<condition number = "1" default = "failed" number_required = "1">
+			<drug>
+				<name>Ertapenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value ="1">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+		</condition>
+		<condition number = "2" default = "failed" number_required = "1">
+			<drug>
+				<name>Doripenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "2">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Imipenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "2">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Meropenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "2">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+		</condition>
+		<condition number = "3" default = "failed" number_required = "1">
+			<drug>
+				<name>Doripenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "4">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Imipenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "4">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Meropenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "4">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+		</condition>
+		<required_if drug="Ertapenem" read_type="MIC" comparison="greater_than_equal" value="1">1</required_if>
+		<required_if drug="Ertapenem" read_type="MIC" comparison="less_than_equal" value="0">2</required_if>
+		<required_if drug="Ertapenem" read_type="MIC" comparison="less_than_equal" value="0.5">3</required_if>
+		<result>CARB</result>
+	</test>

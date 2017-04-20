@@ -1,0 +1,13 @@
+Accession	1
+Isolate Number	2
+Full Name	3
+Social Security Number	4
+Patient Location	5
+Location Type	7
+Isolation Date	8
+Organism Name	10
+Drug Info	73
+Drug Info Format	MIC,,Call
+Date Format	yyyy-MM-dd
+Drugs per line	46
+Machine	BM-vitek

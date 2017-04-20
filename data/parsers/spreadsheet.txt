@@ -1,0 +1,26 @@
+Last Name	2
+First Name	3
+Middle Initial	4
+DMIS ID	5
+SPIN Number	6
+SSN Prefix	7
+Social Security Number	8
+Date of Birth	9
+Gender	10
+Accession	11
+Isolation Date	12
+Culture Type	13
+Source	14
+Location Type	15
+Location	16
+Isolate Number	17
+Organism Name	18
+Alternate Organism Name	19
+Equipment	20
+Drug Info	21
+Drug Info Format	Call,MIC
+ESBL	130
+AMP C	131
+Drugs per line	54
+Machine	spreadsheet
+

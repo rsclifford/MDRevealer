@@ -1,0 +1,177 @@
+ACHROMOBACTER	Achromobacter sp.	Achromobacter sp.	413423003
+Achromobacter species	Achromobacter sp.	Achromobacter sp.	413423003
+ACHROMOBACTER XYLOSOXIDANAS	Achromobacter xylosoxidans	A. xylosoxidans	413424009
+ACHROMOBACTER XYLOSOXIDIANS	Achromobacter xylosoxidans	A. xylosoxidans	413424009
+ACB	Acinetobacter baumannii	A. baumannii	91288006
+Aci.baumannii cplx	Acinetobacter baumannii	A. baumannii	91288006
+ACINEOTBACTER BAUMANII	Acinetobacter baumannii	A. baumannii	91288006
+ACINETOBACTER BAUMANII	Acinetobacter baumannii	A. baumannii	91288006
+ACINETOBACTER BAUMANNI	Acinetobacter baumannii	A. baumannii	91288006
+ACINETOBACTER BAUMANNII	Acinetobacter baumannii	A. baumannii	91288006
+ACINETOBACTER BAUMANNII COMPLEX	Acinetobacter baumannii	A. baumannii	91288006
+Acinetobacter baumannii/calcoaceticus complex	Acinetobacter baumannii	A. baumannii	91288006
+ACINETOBACTER CALCOACETICUS-BAUMANNI COMPLEX	Acinetobacter baumannii	A. baumannii	91288006
+ACINETOBACTER CALCOACETICUS-BAUMANNII COMPLEX	Acinetobacter baumannii	A. baumannii	91288006
+Aci.lwoffii	Acinetobacter lwoffii	A. lwoffii	
+ACINETOBACTER LOWFFI	Acinetobacter lwoffii	A. lwoffii	
+ACINETOBACTER LWOFFII	Acinetobacter lwoffii	A. lwoffii	
+ACINETOBACTER RADIORESISTENS	Acinetobacter radioresistens	A. radioresistens	113381003
+ACINETOBACTER	Acinetobacter sp.	Acinetobacter sp.	116456006
+Aci.ursingii	Acinetobacter ursingii	A. ursingii	
+ACTINOMYCES NUEII	Actinomyces neuii	A. neuii	113420003
+Aer.hydro./caviae	Aeromonas hydrophila/caviae	Aeromonas hydrophila/caviae	
+ALCALIGENES FAECALIS	Alcaligenes faecalis	A. faecalis	
+ALCALIGENES XYLOSOXIDANS	Alcaligenes xylosoxidans	A. xylosoxidans	89929008
+B.CEPACIA 	Burkholderia cepacia	B. cepacia	113669008
+Burkhol.cepacia	Burkholderia cepacia	B. cepacia	113669008
+Burkhol.cepacia gr.	Burkholderia cepacia	B. cepacia	113669008
+CHRYSEOBACTERIUM INDOLOGENES	Chryseobacterium indologenes	C. indologenes	113549008
+C. AMALONATICUS	Citrobacter amalonaticus	C. amalonaticus	114445008
+Citrobacter amalonaticus	Citrobacter amalonaticus	C. amalonaticus	114445008
+Citro.braakii	Citrobacter braakii	C. braakii	
+Citrobacter braakii	Citrobacter braakii	C. braakii	
+Citro.farmeri	Citrobacter farmeri	C. farmeri	
+Citrobacter farmeri	Citrobacter farmeri	C. farmeri	
+C.FRUENDII	Citrobacter freundii	C. freundii	6265002
+Citro.freundii	Citrobacter freundii	C. freundii	6265002
+CITROBACTER FREUNDII	Citrobacter freundii	C. freundii	6265002
+Citrobacter freundii complex	Citrobacter freundii	C. freundii	6265002
+Citro.koseri	Citrobacter koseri	C. koseri	114264004
+CITROBACTER KOSERI	Citrobacter koseri	C. koseri	114264004
+Citro.sedlakii	Citrobacter sedlakii	C. sedlakii	
+CITROBACTER 	Citrobacter sp.	Citrobacter sp.	131256000
+Citro.youngae	Citrobacter youngae	C. youngae	
+Citrobacter youngae	Citrobacter youngae	C. youngae	
+CNS	CoNS	CoNS	
+Coagulase negative Staphylococcus	CoNS	CoNS	
+CONS	CoNS	CoNS	
+Eliz.meningosept.	Elizabethkingia meningoseptica	E. meningoseptica	425774009
+ELIZABETHA MENINGOSEPTICA	Elizabethkingia meningoseptica	E. meningoseptica	425774009
+Ent.aerogenes	Enterobacter aerogenes	E. aerogenes	62592009
+ENTEROBACTER AEROGENES	Enterobacter aerogenes	E. aerogenes	62592009
+ENTEROBACTER AEROGENSES	Enterobacter aerogenes	E. aerogenes	62592009
+ENTEROBACTOR AEROGENES	Enterobacter aerogenes	E. aerogenes	62592009
+Enterobacter amnigenus	Enterobacter amnigenus	E. amnigenus	
+Ent.asburiae	Enterobacter asburiae	E. asburiae	
+Enterobacter asburiae	Enterobacter asburiae	E. asburiae	
+ENTEROBACTER CANCEROGENOUS	Enterobacter cancerogenus	E. cancerogenus	114451003
+E. CLOACAE	Enterobacter cloacae	E. cloacae	14385002
+Ent.cloacae complex	Enterobacter cloacae	E. cloacae	14385002
+ENTEROBACTER CLOACAE	Enterobacter cloacae	E. cloacae	14385002
+ENTEROBACTER CLOACAE COMPLEX	Enterobacter cloacae	E. cloacae	14385002
+ENT	Enterobacter sp.	Enterobacter sp.	131263000
+ENTEROBACTER 	Enterobacter sp.	Enterobacter sp.	131263000
+E.CASSELIFLAVUS	Enterococcus casseliflavus	E. casseliflavus	30949009
+E. FAECALIS	Enterococcus faecalis	E. faecalis	78065002
+E.FAECALIS	Enterococcus faecalis	E. faecalis	78065002
+ENTEROCOCCUS FAECALIS	Enterococcus faecalis	E. faecalis	78065002
+E. FAECIUM	Enterococcus faecium	E. faecium	78065002
+E.FAECIUM	Enterococcus faecium	E. faecium	78065002
+ENTEROCOCCUS FAECIUM	Enterococcus faecium	E. faecium	78065002
+ENTEROCOCCUS.FAECIUM	Enterococcus faecium	E. faecium	78065002
+Enterococcus	Enterococcus sp.	Enterococcus sp.	131297007
+Enterococcus spp	Enterococcus sp.	Enterococcus sp.	131297007
+VRE	Enterococcus sp.	Enterococcus sp.	131297007
+E. COLI	Escherichia coli	E. coli	
+E.COLI	Escherichia coli	E. coli	
+E.COLI ESBL	Escherichia coli	E. coli	
+ECOLI	Escherichia coli	E. coli	
+Esch.coli	Escherichia coli	E. coli	
+ESCHERICHIA COLI	Escherichia coli	E. coli	
+Esch.vulneris	Escherichia vulneris	E. vulneris	
+Escherichia vulneris	Escherichia vulneris	E. vulneris	
+K. OXYTOCA	Klebsiella oxytoca	K. oxytoca	40886007
+K.OXYTOCA	Klebsiella oxytoca	K. oxytoca	40886007
+KLEBSIELLA OXYTOCA	Klebsiella oxytoca	K. oxytoca	40886007
+K. pneumoniae	Klebsiella pneumoniae	K. pneumoniae	56415008
+K.pneum.pneumoniae	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA  PNEUMONIAE	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA  PNEUMONIAE SSP PNEUMONIAE	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA PNEUMONIA	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA PNEUMONIAE	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA PNEUMONIAE SSP OZAENAE	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA PNEUMONIAE SSP PNEUMONIAE	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA PNUMONIAE	Klebsiella pneumoniae	K. pneumoniae	56415008
+KPN	Klebsiella pneumoniae	K. pneumoniae	56415008
+KLEBSIELLA	Klebsiella sp.	Klebsiella sp.	131269001
+KLEBSIELLA SPP	Klebsiella sp.	Klebsiella sp.	131269001
+MICROBACTERIUM SPP. 	Microbacterium sp.	Microbacterium sp.	127543009
+Morg.morg.morganii	Morganella morganii	M. morganii	243301005
+Morganella morganii	Morganella morganii	M. morganii	243301005
+MORGANELLA MORGANII SSP MORGANII	Morganella morganii	M. morganii	243301005
+Pantoea agglomerans	Pantoea agglomerans	P. agglomerans	
+Pantoea spp	Pantoea sp.	Pantoea sp.	
+PONTICOCCUS GILVUS	Ponticoccus gilvus	P. gilvus	
+Prev.bivia	Prevotella bivia	P. bivia	
+ESBL PROTEUS MIRABILIS	Proteus mirabilis	P. mirabilis	73457008
+P.MIRABILIS	Proteus mirabilis	P. mirabilis	73457008
+PMIR	Proteus mirabilis	P. mirabilis	73457008
+PROTEUS MIRABILIS	Proteus mirabilis	P. mirabilis	73457008
+PROTEUS MIRABILIS 	Proteus mirabilis	P. mirabilis	73457008
+PROTEUS	Proteus sp.	Proteus sp.	131275005
+PROTEUS VULGARIS	Proteus vulgaris	P. vulgaris	45834001
+Proteus vulgaris gr.	Proteus vulgaris	P. vulgaris	45834001
+Proteus vulgaris group	Proteus vulgaris	P. vulgaris	45834001
+PROTEUS VULGARIS/PENNERI	Proteus vulgaris	P. vulgaris	45834001
+PROVIDENCIA ALCALIFACIENS	Providencia alcalifaciens	P. alcalifaciens	46349009
+PROVIDENCIA RETTGERI	Providencia rettgeri	P. rettgeri	14196002
+PROVIDENCIA STUARTII	Providencia stuartii	P. stuartii	1445008
+P. AERUGINOSA AERUGINOSA	Pseudomonas aeruginosa	P. aeruginosa	52499004
+Ps.aeruginosa	Pseudomonas aeruginosa	P. aeruginosa	52499004
+PSA	Pseudomonas aeruginosa	P. aeruginosa	52499004
+PSEUDOMONAS  AERUGINOSA	Pseudomonas aeruginosa	P. aeruginosa	52499004
+PSEUDOMONAS AERUGINOSA	Pseudomonas aeruginosa	P. aeruginosa	52499004
+PSEUDOMONAS AERUOGINOSA	Pseudomonas aeruginosa	P. aeruginosa	52499004
+Ps.fluorescens	Pseudomonas fluorescens	P. fluorescens	65662000
+PSEUDOMONAS FLUORESCENS	Pseudomonas fluorescens	P. fluorescens	65662000
+PSEUDOMONAS MENDOCINA	Pseudomonas mendocina	P. mendocina	59419001
+PSEUDOMONAS PUTIDA	Pseudomonas putida	P. putida	68608003
+PSEUDOMONAS 	Pseudomonas sp.	Pseudomonas sp.	116493000
+Pseudomonas species	Pseudomonas sp.	Pseudomonas sp.	116493000
+SALMONELLA	Salmonella sp.	Salmonella sp.	372342007
+SALMONELLA GROUP	Salmonella sp.	Salmonella sp.	372342007
+SALMONELLA SP.	Salmonella sp.	Salmonella sp.	372342007
+Salmonella species	Salmonella sp.	Salmonella sp.	372342007
+Ser.fonticola	Serratia fonticola	S. fonticola	
+Ser.liquefaciens gr.	Serratia liquefaciens	S. liquefaciens	
+Serratia liquefaciens	Serratia liquefaciens	S. liquefaciens	
+S. MARCESANS 	Serratia marcescens	S. marcescens	115006001
+Ser.marcescens	Serratia marcescens	S. marcescens	115006001
+SERRATIA MARCESCENS	Serratia marcescens	S. marcescens	115006001
+Serratia plymuthica	Serratia plymuthica	S. plymuthica	28955009
+SERRATIA RUBIDAEA	Serratia rubidaea	S. rubidaea	55825002
+Shigella sonnei	Shigella sonnei	S. sonnei	
+SHIGELLA	Shigella sp.	Shigella sp.	116498009
+SHIGELLA SP.	Shigella sp.	Shigella sp.	116498009
+Sphmon.paucimobilis	Sphingomonas paucimobilis	S. paucimobilis	
+MRSA	Staphylococcus aureus	S. aureus	3092008
+MSSA	Staphylococcus aureus	S. aureus	3092008
+Staph.aureus	Staphylococcus aureus	S. aureus	3092008
+STAPHYLOCOCCUS AUREUS	Staphylococcus aureus	S. aureus	3092008
+VISA	Staphylococcus aureus	S. aureus	3092008
+STAPHYLOCOCCUS CAPITIS	Staphylococcus capitis	S. capitis	40347003
+STAPHYLOCOCCUS CAPITIS SSP UREOLYTICUS	Staphylococcus capitis	S. capitis	40347003
+STAPHYLOCOCCUS CAPRAE	Staphylococcus caprae	S. caprae	76969000
+STAPHYLOCOCCUS EPIDERMIDIS	Staphylococcus epidermidis	S. epidermidis	60875001
+STAPHYLOCOCCUS EPIDERMIS	Staphylococcus epidermidis	S. epidermidis	60875001
+Staphylococcus felis	Staphylococcus felis	S. felis	
+Staphylococcus haemolyticus	Staphylococcus haemolyticus	S. haemolyticus	
+STAPHYLOCOCCUS HOMINIS	Staphylococcus hominis	S. hominis	44827007
+Staphylococcus hominis subsp. hominis	Staphylococcus hominis	S. hominis	44827007
+Staphylococcus intermedius	Staphylococcus intermedius	S. intermedius	
+S. LUGDUNGNISIS	Staphylococcus lugdunensis	S. lugdunensis	103494005
+Staph.lugdunensis	Staphylococcus lugdunensis	S. lugdunensis	103494005
+Staphylococcus lugdunensis	Staphylococcus lugdunensis	S. lugdunensis	103494005
+STAPYLOCOCCUS LUGDENENSIS	Staphylococcus lugdunensis	S. lugdunensis	103494005
+Staphylococcus pasteuri	Staphylococcus pasteuri	S. pasteuri	
+Staph.saprophyticus	Staphylococcus saprophyticus	S. saprophyticus	
+Staphylococcus saprophyticus	Staphylococcus saprophyticus	S. saprophyticus	
+STAPHYLOCOCCUS SCHLEIFERI	Staphylococcus schleiferi	S. schleiferi	131360000
+STAPHYLOCOCCUS SCHLEIFERI SSP SCHLEIFERI	Staphylococcus schleiferi	S. schleiferi	131360000
+Staphylococcus simulans	Staphylococcus simulans	S. simulans	
+STENOTROPHOMONAS MALTOCIDA	Stenotrophomonas maltophilia	S. maltophilia	113697002
+STENOTROPHOMONAS MALTOPHIA	Stenotrophomonas maltophilia	S. maltophilia	113697002
+STENOTROPHOMONAS MALTOPHILA	Stenotrophomonas maltophilia	S. maltophilia	113697002
+STENOTROPHOMONAS MALTOPHILIA	Stenotrophomonas maltophilia	S. maltophilia	113697002
+V.vulnificus	Vibrio vulnificus	V. vulnificus	
+Y.enterocolitica gr.	Yersinia enterocolitica	Y. enterocolitica	

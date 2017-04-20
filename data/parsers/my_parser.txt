@@ -1,0 +1,24 @@
+Accession	1
+Isolate Number	2
+Last Name	3
+First Name	4
+Gender	5
+DMIS ID	6
+Location	7
+(skip)	8
+(skip)	9
+(skip)	10
+(skip)	11
+Organism Name	12
+Alternate Organism Name	13
+(skip)	14
+(skip)	15
+(skip)	16
+(skip)	17
+(skip)	18
+(skip)	19
+(skip)	20
+Drug Info	21
+Drugs per line	1
+Drug Info Format	Name,Call,MIC	23
+Date Format	MM/dd/yyyy	24

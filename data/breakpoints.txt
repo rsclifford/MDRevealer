@@ -1,0 +1,209 @@
+ACB	Amikacin	16	64
+ACB	Gentamicin	4	16
+ACB	Tobramycin	4	16
+ACB	Amp/Sulbactam	8	32
+ACB	Pip/Tazo	16	128
+ACB	Ticar/K Clav	16	128
+ACB	Imipenem	4	16
+ACB	Meropenem	4	16
+ACB	Cefepime	8	32
+ACB	Cefotaxime	8	64
+ACB	Ceftazidime	8	32
+ACB	Ceftriaxone	8	64
+ACB	Ciprofloxacin	1	4
+ACB	Gatifloxacin	2	8
+ACB	Levofloxacin	2	8
+ACB	Trimeth/Sulfa	2	4
+ACB	Colistin	2	4
+ACB	Polymixin B	2	4
+ACB	Piperacillin	16	128
+ACB	Ticarcillin	16	128
+ACB	Doxycycline	4	16
+ACB	Minocycline	4	16
+ACB	Tetracycline	4	16
+Enterobacter	Amikacin	16	64
+Enterobacter	Gentamicin	4	16
+Enterobacter	Tobramycin	4	16
+Enterobacter	Amox/K Clav	8	32
+Enterobacter	Amp/Sulbactam	8	32
+Enterobacter	Pip/Tazo	16	128
+Enterobacter	Ticar/K Clav	16	128
+Enterobacter	Doripenem	1	4
+Enterobacter	Ertapenem	0.5	2
+Enterobacter	Imipenem	1	4
+Enterobacter	Meropenem	1	4
+Enterobacter	Cefalotin	8	32
+Enterobacter	Cefazolin	2	8
+Enterobacter	Cefepime	8	32
+Enterobacter	Cefotaxime	1	4
+Enterobacter	Cefotetan	16	64
+Enterobacter	Cefoxitin	8	32
+Enterobacter	Cefpodoxime	2	8
+Enterobacter	Ceftazidime	4	16
+Enterobacter	Ceftizoxime	1	4
+Enterobacter	Ceftriaxone	1	4
+Enterobacter	Cefuroxime	8	32
+Enterobacter	Cephatholin	8	32
+Enterobacter	Ciprofloxacin	1	4
+Enterobacter	Gatifloxacin	2	8
+Enterobacter	Levofloxacin	2	8
+Enterobacter	Norfloxacin	4	16
+Enterobacter	Trimeth/Sulfa	2	4
+Enterobacter	Aztreonam	4	16
+Enterobacter	Nitrofurantoin	32	128
+Enterobacter	Ampicillin	8	32
+Enterobacter	Piperacillin	16	128
+Enterobacter	Chloramphenicol	8	32
+Enterobacter	Nalidixic Acid	16	32
+Enterobacter	Doxycycline	4	16
+Enterobacter	Minocycline	4	16
+Enterobacter	Tetracycline	4	16
+E.coli	Amikacin	16	64
+E.coli	Gentamicin	4	16
+E.coli	Tobramycin	4	16
+E.coli	Amox/K Clav	8	32
+E.coli	Amp/Sulbactam	8	32
+E.coli	Pip/Tazo	16	128
+E.coli	Ticar/K Clav	16	128
+E.coli	Doripenem	1	4
+E.coli	Ertapenem	0.5	2
+E.coli	Imipenem	1	4
+E.coli	Meropenem	1	4
+E.coli	Cefalotin	8	32
+E.coli	Cefazolin	2	8
+E.coli	Cefepime	8	32
+E.coli	Cefotaxime	1	4
+E.coli	Cefotetan	16	64
+E.coli	Cefoxitin	8	32
+E.coli	Cefpodoxime	2	8
+E.coli	Ceftazidime	4	16
+E.coli	Ceftizoxime	1	4
+E.coli	Ceftriaxone	1	4
+E.coli	Cefuroxime	8	32
+E.coli	Cephatholin	8	32
+E.coli	Ciprofloxacin	1	4
+E.coli	Gatifloxacin	2	8
+E.coli	Levofloxacin	2	8
+E.coli	Norfloxacin	4	16
+E.coli	Trimeth/Sulfa	2	4
+E.coli	Aztreonam	4	16
+E.coli	Nitrofurantoin	32	128
+E.coli	Ampicillin	8	32
+E.coli	Piperacillin	16	128
+E.coli	Chloramphenicol	8	32
+E.coli	Nalidixic Acid	16	32
+E.coli	Doxycycline	4	16
+E.coli	Minocycline	4	16
+E.coli	Tetracycline	4	16
+Escherichia coli	Amikacin	16	64
+Escherichia coli	Gentamicin	4	16
+Escherichia coli	Tobramycin	4	16
+Escherichia coli	Amox/K Clav	8	32
+Escherichia coli	Amp/Sulbactam	8	32
+Escherichia coli	Pip/Tazo	16	128
+Escherichia coli	Ticar/K Clav	16	128
+Escherichia coli	Doripenem	1	4
+Escherichia coli	Ertapenem	0.5	2
+Escherichia coli	Imipenem	1	4
+Escherichia coli	Meropenem	1	4
+Escherichia coli	Cefalotin	8	32
+Escherichia coli	Cefazolin	2	8
+Escherichia coli	Cefepime	8	32
+Escherichia coli	Cefotaxime	1	4
+Escherichia coli	Cefotetan	16	64
+Escherichia coli	Cefoxitin	8	32
+Escherichia coli	Cefpodoxime	2	8
+Escherichia coli	Ceftazidime	4	16
+Escherichia coli	Ceftizoxime	1	4
+Escherichia coli	Ceftriaxone	1	4
+Escherichia coli	Cefuroxime	8	32
+Escherichia coli	Cephatholin	8	32
+Escherichia coli	Ciprofloxacin	1	4
+Escherichia coli	Gatifloxacin	2	8
+Escherichia coli	Levofloxacin	2	8
+Escherichia coli	Norfloxacin	4	16
+Escherichia coli	Trimeth/Sulfa	2	4
+Escherichia coli	Aztreonam	4	16
+Escherichia coli	Nitrofurantoin	32	128
+Escherichia coli	Ampicillin	8	32
+Escherichia coli	Piperacillin	16	128
+Escherichia coli	Chloramphenicol	8	32
+Escherichia coli	Nalidixic Acid	16	32
+Escherichia coli	Doxycycline	4	16
+Escherichia coli	Minocycline	4	16
+Escherichia coli	Tetracycline	4	16
+KPN	Amikacin	16	64
+KPN	Gentamicin	4	16
+KPN	Tobramycin	4	16
+KPN	Amox/K Clav	8	32
+KPN	Amp/Sulbactam	8	32
+KPN	Pip/Tazo	16	128
+KPN	Ticar/K Clav	16	128
+KPN	Doripenem	1	4
+KPN	Ertapenem	0.5	2
+KPN	Imipenem	1	4
+KPN	Meropenem	1	4
+KPN	Cefalotin	8	32
+KPN	Cefazolin	2	8
+KPN	Cefepime	8	32
+KPN	Cefotaxime	1	4
+KPN	Cefotetan	16	64
+KPN	Cefoxitin	8	32
+KPN	Cefpodoxime	2	8
+KPN	Ceftazidime	4	16
+KPN	Ceftizoxime	1	4
+KPN	Ceftriaxone	1	4
+KPN	Cefuroxime	8	32
+KPN	Cephatholin	8	32
+KPN	Ciprofloxacin	1	4
+KPN	Gatifloxacin	2	8
+KPN	Levofloxacin	2	8
+KPN	Norfloxacin	4	16
+KPN	Trimeth/Sulfa	2	4
+KPN	Aztreonam	4	16
+KPN	Nitrofurantoin	32	128
+KPN	Ampicillin	8	32
+KPN	Piperacillin	16	128
+KPN	Chloramphenicol	8	32
+KPN	Nalidixic Acid	16	32
+KPN	Doxycycline	4	16
+KPN	Minocycline	4	16
+KPN	Tetracycline	4	16
+Pseudomonas	Amikacin	16	64
+Pseudomonas	Gentamicin	4	16
+Pseudomonas	Tobramycin	4	16
+Pseudomonas	Pip/Tazo	16	128
+Pseudomonas	Ticar/K Clav	16	128
+Pseudomonas	Doripenem	2	8
+Pseudomonas	Imipenem	2	8
+Pseudomonas	Meropenem	2	8
+Pseudomonas	Cefepime	8	32
+Pseudomonas	Ceftazidime	8	32
+Pseudomonas	Ciprofloxacin	1	4
+Pseudomonas	Gatifloxacin	2	8
+Pseudomonas	Levofloxacin	2	8
+Pseudomonas	Norfloxacin	4	16
+Pseudomonas	Colistin	2	8
+Pseudomonas	Polymixin B	2	8
+Pseudomonas	Aztreonam	8	32
+Pseudomonas	Piperacillin	16	128
+Pseudomonas	Ticarcillin	16	128
+PSA	Amikacin	16	64
+PSA	Gentamicin	4	16
+PSA	Tobramycin	4	16
+PSA	Pip/Tazo	16	128
+PSA	Ticar/K Clav	16	128
+PSA	Doripenem	2	8
+PSA	Imipenem	2	8
+PSA	Meropenem	2	8
+PSA	Cefepime	8	32
+PSA	Ceftazidime	8	32
+PSA	Ciprofloxacin	1	4
+PSA	Gatifloxacin	2	8
+PSA	Levofloxacin	2	8
+PSA	Norfloxacin	4	16
+PSA	Colistin	2	8
+PSA	Polymixin B	2	8
+PSA	Aztreonam	8	32
+PSA	Piperacillin	16	128
+PSA	Ticarcillin	16	128

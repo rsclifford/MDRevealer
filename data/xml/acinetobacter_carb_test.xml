@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+	<test>
+		<test_name>ACB Carb Test</test_name>
+		<bacterium>Acinetobacter</bacterium>
+		<condition number = "1" number_required="1" default = "passed">
+			<drug>
+				<name>Imipenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "8">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+			<drug>
+				<name>Meropenem</name>
+				<if read_type = "MIC" comparison="greater_than_equal" value = "8">
+					<condition_status>+</condition_status>
+				</if>
+			</drug>
+		</condition>
+		<required_condition>1</required_condition>
+		<result>CARB</result>
+	</test> 

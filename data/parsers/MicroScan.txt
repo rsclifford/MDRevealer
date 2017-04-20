@@ -1,0 +1,15 @@
+Last Name	1
+First Name	2
+Social Security Number	3
+DMIS ID	4
+Date of Birth	5
+Gender	6
+Accession	7
+Isolation Date	8
+Source	9
+Isolate Number	10
+Organism Name	11
+Drug Info	12
+Drug Info Format	Call,MIC
+Drugs per line	45
+Machine	MicroScan

@@ -1,0 +1,341 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-18 18:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: MDRevealer.java:136
+msgid "Detailed report (in English)"
+msgstr ""
+
+#: MDRevealer.java:137
+msgid "Summary (in English)"
+msgstr ""
+
+#: MDRevealer.java:138
+msgid "Spreadsheet (in English)"
+msgstr ""
+
+#: MDRevealer.java:139
+msgid ".dat file (in English)"
+msgstr ""
+
+#: MDRevealer.java:140
+msgid "Detailed report (in your current language)"
+msgstr ""
+
+#: MDRevealer.java:141
+msgid "Ignore calls from the machines and have the program calculate them"
+msgstr ""
+
+#: MDRevealer.java:153
+msgid "Parsing a spreadsheet"
+msgstr ""
+
+#: MDRevealer.java:155
+#, java-format
+msgid "Parsing a file from facility #{0}"
+msgstr ""
+
+#: MDRevealer.java:159
+msgid "What reports would you like?"
+msgstr ""
+
+#: MDRevealer.java:188
+msgid "Which parser would you like?"
+msgstr ""
+
+#: MDRevealer.java:205
+msgid "OK"
+msgstr ""
+
+#: MDRevealer.java:207
+msgid "Cancel"
+msgstr ""
+
+#: MDRevealer.java:209
+msgid "About"
+msgstr ""
+
+#: MDRevealer.java:225 MDRevealer.java:291 MDRevealer.java:297
+#: MDRevealer.java:317 MDRevealer.java:324 MDRevealer.java:347
+#: MDRevealer.java:353
+msgid "Fatal error: "
+msgstr ""
+
+#: MDRevealer.java:263
+msgid "No checkboxes selected!"
+msgstr ""
+
+#: MDRevealer.java:263
+msgid "Error"
+msgstr ""
+
+#: MDRevealer.java:286 MDRevealer.java:312 MDRevealer.java:342
+msgid "Error: file not found!"
+msgstr ""
+
+#: MDRevealer.java:303 MDRevealer.java:330 MDRevealer.java:357
+msgid "Unparseable XML file, skipping..."
+msgstr ""
+
+#: MDRevealer.java:335
+msgid "No config information found!"
+msgstr ""
+
+#: MDRevealer.java:335
+msgid "Parsing using default settings..."
+msgstr ""
+
+#: MDRevealer.java:336
+msgid "Warning"
+msgstr ""
+
+#. TRANSLATORS: To quote the GNU Coding Standards,
+#. "Write the word 'Copyright' exactly like that, in
+#. English. Do not translate it into another
+#. language. International treaties recognize the
+#. English word 'Copyright'; translations into other
+#. languages do not have legal significance."
+#.
+#: MDRevealer.java:375
+#, java-format
+msgid "Copyright (C) {0}, written by {1} and {2}"
+msgstr ""
+
+#: MDRevealer.java:388
+msgid "Robin Clifford"
+msgstr ""
+
+#: MDRevealer.java:405
+msgid "Robert Clifford"
+msgstr ""
+
+#: MDRevealer.java:406
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>"
+msgstr ""
+
+#. TRANSLATORS: Please see https://www
+#. .gnu.org/philosophy/fs- translations.html for
+#. a list of unambigious translations for the
+#. term "free software".
+#.
+#: MDRevealer.java:413
+msgid "This is free software: you are free to change and redistribute it."
+msgstr ""
+
+#: MDRevealer.java:414
+msgid "There is NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#: MDRevealer.java:415
+msgid ""
+"This program uses libintl from GNU gettext 0.18.3, which is copyright (C) "
+"2001,2007 Free Software Foundation, Inc, and licensed under the LGPL version "
+"2.1 or later."
+msgstr ""
+
+#: MDRevealer.java:417
+msgid "For more information, please see LGPL.txt."
+msgstr ""
+
+#: MDRevealer.java:418
+msgid ""
+"It also uses Apache Commons Collection, which is copyright (C) 2001-2013 The "
+"Apache Software Foundation, and licensed under the Apache License 2.0."
+msgstr ""
+
+#: MDRevealer.java:419
+msgid "For more information, please see Apache2.0.txt."
+msgstr ""
+
+#: MDRevealer.java:419
+msgid "License"
+msgstr ""
+
+#: call.java:47
+#, java-format
+msgid ""
+"Warning: the call name \"{0}\" is not known to the program. Either this is a "
+"typo, or it is an error in the program."
+msgstr ""
+
+#: mtf.java:66
+#, java-format
+msgid ""
+"Warning: the hospital name \"{0}\" does not appear in {1}. Either this is a "
+"typo, or the name is missing from the file."
+msgstr ""
+
+#: Resistances.java:220
+msgid "from a species not tested for MDR status"
+msgstr ""
+
+#: Resistances.java:242
+msgid "not MDR"
+msgstr ""
+
+#: Output.java:60
+msgid "Select a place to save the detailed report"
+msgstr ""
+
+#: Output.java:164
+msgid "Detailed report written successfully."
+msgstr ""
+
+#: Output.java:176
+msgid "Select a place to save the summary"
+msgstr ""
+
+#: Output.java:264
+msgid "Summary written successfully."
+msgstr ""
+
+#: Output.java:282
+msgid "Select a place to save the spreadsheet"
+msgstr ""
+
+#: Output.java:536
+msgid "Spreadsheet written successfully."
+msgstr ""
+
+#: Output.java:549
+msgid "Select a place to save the .dat file"
+msgstr ""
+
+#: Output.java:647
+#, java-format
+msgid "Unrecognized option: {0}"
+msgstr ""
+
+#: Output.java:672
+msgid "Select a place to save the detailed report (in English)"
+msgstr ""
+
+#: Output.java:692
+#, java-format
+msgid "{0} (accession {1}, isolate {2}"
+msgstr ""
+
+#: Output.java:698
+#, java-format
+msgid ", found at an unspecified location, is {0}"
+msgstr ""
+
+#: Output.java:702
+#, java-format
+msgid ", found at {0}, is {1})"
+msgstr ""
+
+#: Output.java:709
+msgid "It is resistant to Carbapenem."
+msgstr ""
+
+#. TRANSLATORS: Leave "ESBL" untranslated. Doctors, regardless
+#. of their native language, will understand what it means.
+#.
+#: Output.java:716
+msgid "It is ESBL."
+msgstr ""
+
+#. TRANSLATORS: Leave "VRE" untranslated. Doctors, regardless of
+#. their native language, will understand what it means.
+#.
+#: Output.java:723
+msgid "It is VRE."
+msgstr ""
+
+#. TRANSLATORS: Leave "MRSA" untranslated. Doctors, regardless
+#. of their native language, will understand what it means.
+#.
+#: Output.java:730
+msgid "It is MRSA.\n"
+msgstr ""
+
+#: Output.java:735
+#, java-format
+msgid "It is {0}."
+msgstr ""
+
+#: Output.java:741
+msgid "It resists:"
+msgstr ""
+
+#: Output.java:744 Output.java:753
+msgid "Nothing"
+msgstr ""
+
+#: Output.java:751
+msgid "It is sensitive to:"
+msgstr ""
+
+#: Parser.java:199
+#, java-format
+msgid "No breakpoint found for {0} and {1}"
+msgstr ""
+
+#: Parser.java:266
+msgid "Select a file to read from"
+msgstr ""
+
+#: Parser.java:271
+msgid "Error: no file specified!"
+msgstr ""
+
+#: Parser.java:278 Parser.java:298 Parser.java:304 Parser.java:325
+#, java-format
+msgid "{0} not found."
+msgstr ""
+
+#: Parser.java:287
+msgid "Select an MDR file"
+msgstr ""
+
+#: Parser.java:313
+msgid "Select a breakpoints file"
+msgstr ""
+
+#: Parser.java:348 Parser.java:359
+msgid "Current organisms.txt line: "
+msgstr ""
+
+#: Parser.java:389 Parser.java:400
+msgid "Current drugnames.txt line: "
+msgstr ""
+
+#: Parser.java:446 Parser.java:458
+msgid "Current mdr.txt line: "
+msgstr ""
+
+#: Parser.java:496 Parser.java:507
+msgid "Current carbapenem.txt line: "
+msgstr ""
+
+#: Parser.java:524 Parser.java:535
+msgid "Current hospitals.txt line: "
+msgstr ""
+
+#: Parser.java:566 Parser.java:577
+msgid "Current breakpoints.txt line: "
+msgstr ""
+
+#: Organism.java:77 Organism.java:94
+#, java-format
+msgid ""
+"Warning: the organism name \"{0}\" does not appear in {1}. Either this is a "
+"typo, or the name is missing from the file."
+msgstr ""

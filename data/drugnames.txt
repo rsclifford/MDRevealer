@@ -1,0 +1,115 @@
+AM-Ampicillin	Ampicillin
+AMC-Amoxicillin/Clavulanic Acid	Amox/K Clav
+AN-Amikacin	Amikacin
+ATM-Aztreonam	Aztreonam
+Amikacin	Amikacin
+Amox/K Clav	Amox/K Clav
+Amoxicillin	Amoxicillin
+Amoxicillin-Clavulanate	Amox/K Clav
+Amoxicillin/Clavulanic Acid	Amox/K Clav
+Amp/Sulbactam	Amp/Sulbactam
+Ampicillin	Ampicillin
+Ampicillin-Sulbactam	Amp/Sulbactam
+Ampicillin/Sulbactam	Amp/Sulbactam
+Azithromycin	Azithromycin
+Aztreonam	Aztreonam
+BLA-Beta-Lactamase	Beta-Lactamase
+Benzylpenicillin	Penicillin
+Beta-Lactamase	Beta-Lactamase
+CAZ-Ceftazidime	Ceftazidime
+CIP-Ciprofloxacin	Ciprofloxacin
+CM-Clindamycin	Clindamycin
+CRO-Ceftriaxone	Ceftriaxone
+CTX-Cefotaxime	Cefotaxime
+CXM-Cefuroxime	Cefuroxime
+Cefalotin	Cefalotin
+Cefazolin	Cefazolin
+Cefepime	Cefepime
+Cefotaxime	Cefotaxime
+Cefotetan	Cefotetan
+Cefoxitin	Cefoxitin
+Cefoxitin Screen	Cefoxitin Screen
+Ceftaroline	Ceftaroline
+Ceftazidime	Ceftazidime
+Ceftriaxone	Ceftriaxone
+Cefuroxime	Cefuroxime
+Cefuroxime Axetil	Cefuroxime
+Chloramphenicol	Chloramphenicol
+Ciprofloxacin	Ciprofloxacin
+Clindamycin	Clindamycin
+Daptomycin	Daptomycin
+E-Erythromycin	Erythromycin
+ESB-ESBL	ESBL
+ESBL	ESBL
+Ertapenem	Ertapenem
+Erythromycin	Erythromycin
+FEP-Cefepime	Cefepime
+FT-Nitrofurantoin	Nitrofurantoin
+GM-Gentamicin	Gentamicin
+Gatifloxacin	Gatifloxacin
+Gentamicin	Gentamicin
+Gentamicin High Level (synergy)	Gentamicin Syn
+Gentamicin-Syn	Gentamicin Syn
+Gentamycin Syn	Gentamicin Syn
+GentamycinSyn	Gentamicin Syn
+ICR-Inducible Clindamycin Resistance	Inducible Clindamycin
+IPM-Imipenem	Imipenem
+Imipenem	Imipenem
+Inducible Clindamycin	Inducible Clindamycin
+Inducible Clindamycin Res	Inducible Clindamycin
+Inducible Clindamycin Resistance	Inducible Clindamycin
+LEV-Levofloxacin	Levofloxacin
+LNZ-Linezolid	Linezolid
+Levofloxacin	Levofloxacin
+Linezolid	Linezolid
+MEM-Meropenem	Meropenem
+MXF-Moxifloxacin	Moxifloxacin
+Meropenem	Meropenem
+Minocycline	Minocycline
+Moxifloxacin	Moxifloxacin
+Nitrofurantoin	Nitrofurantoin
+OX1-Oxacillin	Oxacillin
+OXSF-Cefoxitin Screen	Cefoxitin Screen
+Oxacillin	Oxacillin
+Oxacillin MIC	Oxacillin
+P-Benzylpenicillin	Penicillin
+Penicillin	Penicillin
+Penicillin G	Penicillin
+Pip/Tazo	Pip/Tazo
+Piperacillin-Tazobactam	Pip/Tazo
+Piperacillin/Tazobactam	Pip/Tazo
+Quinup/Dalfop	Quinup/Dalfop
+Quinupristin-dalfopristin	Quinup/Dalfop
+Quinupristin/Dalfopristin	Quinup/Dalfop
+RA-Rifampicin	Rifampin
+Rifampicin	Rifampin
+Rifampin	Rifampin
+SAM-Ampicillin/Sulbactam	Amp/Sulbactam
+SAM-Ampicillin/Sulbactam	Amp/Sulbactam
+SXT-Trimethoprim/Sulfamethoxazole	Trimeth/Sulfa
+Streptomycin High Level (synergy)	Streptomycin Syn
+Streptomycin-Syn	Streptomycin Syn
+Synercid	Quinup/Dalfop
+TE-Tetracycline	Tetracycline
+TGC-Tigecycline	Tigecycline
+TM-Tobramycin	Tobramycin
+TRIMETH/SULFATE	Trimeth/Sulfa
+TZP-Piperacillin/Tazobactam	Pip/Tazo
+Tetracycline	Tetracycline
+Ticar/K Clav	Ticar/K Clav
+Ticarcillin/Clavulanic Acid	Ticar/K Clav
+Tigecycline	Tigecycline
+Tobramycin	Tobramycin
+Trimeth/Sulfa	Trimeth/Sulfa
+Trimethoprim-Sulfamethoxazole	Trimeth/Sulfa
+Trimethoprim/Sulfamethoxazole	Trimeth/Sulfa
+VA-Vancomycin	Vancomycin
+Vancomycin	Vancomycin
+amox/clavulanate	Amox/K Clav
+amox/k clavulanate	Amox/K Clav
+amx/k clavulanate	Amox/K Clav
+pip/tazobactam	Pip/Tazo
+quinupristin/dalfop	Quinup/Dalfop
+ticar/clavulanate	Ticar/K Clav
+ticarcillin/ca	Ticar/K Clav
+trimethorprim/sulfa	Trimeth/Sulfa

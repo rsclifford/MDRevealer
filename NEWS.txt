@@ -1,0 +1,35 @@
+2.0
+
+- Fixed problems with the calculation of ESBL status and carbapenem resistance
+- Completely rewrote the way resistances are calculated- now they read in
+data from an external XML file
+
+2.1
+
+- Removed Phoenix warning
+- Fixed a bug with the Vitek parser involving the date the sample was collected
+- Tweaked the GUI's default size (note: test your GUIs in both tiling and non-tiling
+WMs)
+
+2.2
+
+- Misc fixes
+- Removed several parsers- MicroScan1 didn't work anyway, and MS2, dat, and spreadsheet
+are now handled by the custom parser function
+- Added a custom parser function- use RevealerParserWizard to generate them
+
+2.21
+
+- Fixed a bug with the Vitek parser
+
+2.22
+
+- Fixed another bug with the Vitek parser- the file format changed slightly
+- Made the main window title display the version number
+
+2.24
+
+- Yet another Vitek hotfix- if the program would throw an IndexOutOfBounds error when adding MICs, it'll just skip them and move on to the next line
+
+2.25
+- Hotfix for the hotfix. Vitek changed their format AGAIN and I had to change the program to compensate.
