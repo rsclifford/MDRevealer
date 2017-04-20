@@ -1,12 +1,12 @@
 \input texinfo   @c -*-texinfo-*-
 @c %**start of header
 @setfilename readme.info
-@settitle MDRevealer 2.2
+@settitle MDRevealer 2.25
 @c %**end of header
 
 @copying
 
-Copyright @copyright{} 2013-2015 Robin Clifford. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported license.
+Copyright @copyright{} 2013-2017 Robin Clifford. Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported license.
 
 @quotation
 THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.@sp 1
@@ -73,7 +73,7 @@ UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS T
 @end copying
 
 @titlepage
-@title @dfn{MDRevealer} 2.2 
+@title @dfn{MDRevealer} 2.2 5
 @author Robin Clifford
 @page
 @xref{Copying} for copyright information.
@@ -83,10 +83,10 @@ UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS T
 @contents
 
 @node Top
-@top @dfn{MDRevealer} 2.2
+@top @dfn{MDRevealer} 2.25
 
-This manual is for @dfn{MDRevealer} (version 2.2, updated 6/29/2015), which 
-processes data files from identification / antibiotic susceptibility testing 
+This manual is for @dfn{MDRevealer} (version 2.25, updated 4/19/2017), which
+processes data files from identification / antibiotic susceptibility testing
 (ID/AST) machines.
 
 @menu
@@ -106,11 +106,11 @@ configurations.
 @node The History of @dfn{MDRevealer}
 @chapter The History of @dfn{MDRevealer}
 
-@dfn{MDRevealer}'s origin lies in a series of Perl scripts written by 
-Robert Clifford from the Multidrug resistant organism Repository and 
-Surveillance Network (MRSN) at the Walter Reed Army Institute of Research 
-(WRAIR). For hospitals, manually parsing the results from identification / 
-antibiotic susceptibility testing (ID/AST) machines to identify multidrug 
+@dfn{MDRevealer}'s origin lies in a series of Perl scripts written by
+Robert Clifford from the Multidrug resistant organism Repository and
+Surveillance Network (MRSN) at the Walter Reed Army Institute of Research
+(WRAIR). For hospitals, manually parsing the results from identification /
+antibiotic susceptibility testing (ID/AST) machines to identify multidrug
 resistant isolates was time-consuming and error-prone. Therefore, he wrote a set
 of Perl scripts to automate this process.
 
@@ -128,8 +128,8 @@ machines, and produces output in multiple formats.
 @node Configuring @dfn{MDRevealer}
 @chapter Configuring @dfn{MDRevealer}
 
-Before using @dfn{MDRevealer}, you must first set up its configuration files. 
-The main configuration file is located in the "data" directory of the program, 
+Before using @dfn{MDRevealer}, you must first set up its configuration files.
+The main configuration file is located in the "data" directory of the program,
 and is called @strong{config.txt}. By default, it looks like this:
 
 @sp 2
@@ -153,10 +153,10 @@ Default breakpoints file @ @ @ @ data/breakpoints.txt
 Custom parser file @ @ @ @ data/parsers/my_parser.txt
 
 .dat output
-lastName @ @ @ @ firstName @ @ @ @ middleI @ @ @ @ dmisId @ @ @ @ spin @ @ @ @ 
-ssnPrefix @ @ @ @ ssn @ @ @ @ dob @ @ @ @ gender @ @ @ @ accession  @ @ @ @ 
-isolationDate @ @ @ @ cultureType @ @ @ @ source @ @ @ @ locationType @ @ @ @ 
-location @ @ @ @ isolate @ @ @ @ organism @ @ @ @ alternateOrganism @ @ @ @ 
+lastName @ @ @ @ firstName @ @ @ @ middleI @ @ @ @ dmisId @ @ @ @ spin @ @ @ @
+ssnPrefix @ @ @ @ ssn @ @ @ @ dob @ @ @ @ gender @ @ @ @ accession  @ @ @ @
+isolationDate @ @ @ @ cultureType @ @ @ @ source @ @ @ @ locationType @ @ @ @
+location @ @ @ @ isolate @ @ @ @ organism @ @ @ @ alternateOrganism @ @ @ @
 equipment @ @ @ @ antibiotic @ @ @ @ mic @ @ @ @ call
 @end example
 @sp 2
@@ -166,10 +166,10 @@ The contents of @strong{config.txt} are described in the following sections.
 @section The "Facility" Field
 
 MDRevealer looks for a line beginning with "Facility" (minus the quotes), a
-tab, and the four-digit ID number of the facility the data came from. The ID 
-number refers to a facility in @strong{data/hospitals.txt}. The 
+tab, and the four-digit ID number of the facility the data came from. The ID
+number refers to a facility in @strong{data/hospitals.txt}. The
 @strong{hospitals.txt} file included with the program contains a list of all
-US Army medical facilities. To add a new hospital, the entry for ID 
+US Army medical facilities. To add a new hospital, the entry for ID
 number 0000 can be edited.
 
 @section The "Machine name" Field
@@ -189,13 +189,13 @@ display a warning and close.
 
 @section Default Locations
 
-Each type of MDRevealer output file has a default name and location. If 
+Each type of MDRevealer output file has a default name and location. If
 you don't want the program to automatically write your output files to a default
-location, simply delete those lines. Otherwise, change "report.txt", 
+location, simply delete those lines. Otherwise, change "report.txt",
 "summary.txt", "spreadsheet.txt", etc. to your preferred location.
-All locations are relative to the program (MDRevealer.jar). 
-For example, if you want the program to write your detailed reports to 
-"report.txt" in a folder called "output", which is in the same folder as the 
+All locations are relative to the program (MDRevealer.jar).
+For example, if you want the program to write your detailed reports to
+"report.txt" in a folder called "output", which is in the same folder as the
 program, you would do this:
 @example
 ...
@@ -222,7 +222,7 @@ Please note that the directory must be created before MDRevealer is run.
 
 If you want to use custom antibiotic susceptibility breakpoints or MDR criteria,
 just comment out the lines, and when you run the program, it'll prompt you
-to give it an MDR definition file and a breakpoint file every time. To comment 
+to give it an MDR definition file and a breakpoint file every time. To comment
 them out, change the lines to this:
 
 @example
@@ -277,7 +277,7 @@ gender = The gender of the patient. (Ex: F)
 accession = The accesssion number of the bacterium. (Ex: 12121)
 
 @item
-isolationDate = The date the clinical sample was taken from the patient. 
+isolationDate = The date the clinical sample was taken from the patient.
 (Ex: 7/16/2013)
 
 @item
@@ -299,15 +299,15 @@ are isolated from a single culture, each has the same accession, but a unique
 isolate number. (Ex: 2)
 
 @item
-organism = The organism's display name from @strong{organisms.txt}. 
+organism = The organism's display name from @strong{organisms.txt}.
 (Ex: E. coli)
 
 @item
-alternateOrganism = Rarely used; generally only found when "organism" is 
+alternateOrganism = Rarely used; generally only found when "organism" is
 "other". (Ex: Shigella sonnei)
 
 @item
-longOrganism = The organism's full name. 
+longOrganism = The organism's full name.
 (Ex: Acinetobacter baumannii)
 
 @item
@@ -322,7 +322,7 @@ mic = The minimum inhibitory concentration. Each  MIC will appear on a separate
 row. (Ex: <=1)
 
 @item
-call = Whether the organism was sensitive, resistant, or indeterminate. Each 
+call = Whether the organism was sensitive, resistant, or indeterminate. Each
 call will appear on a separate row. (Ex: S)
 
 @end itemize
@@ -428,7 +428,7 @@ the program executes the test.
 
 @item
 <bacterium>: The name of the bacterium to run tests against. The program
-will look for any bacteria containing this name: 
+will look for any bacteria containing this name:
 <bacterium>Klebsiella</bacterium> will result in the program running its
 tests against any bacterium with "Klebsiella" in its name.
 Setting the name to "Generic" will have it run tests on any bacteria
@@ -439,7 +439,7 @@ Setting the name to "Any" will have it run tests on all bacteria.
 <condition>: Defines a condition.
 
 
-@itemize 
+@itemize
 Attributes:
 
 @item
@@ -476,7 +476,7 @@ In this case, Doripenem's MIC being >=4 would be a sub-condition.
 <if>: If the conditions in its attributes are met, the program does whatever
 <condition_status> says to do.
 
-@itemize 
+@itemize
 Attributes:
 
 @item
@@ -494,7 +494,7 @@ value: What value to compare the read_type to.
 @item
 <condition_status>: What to do if <if> is met.
 
-@itemize 
+@itemize
 @item
 failed: Fail the condition.
 
@@ -539,7 +539,7 @@ Attributes are the same as the ones for <if>.
 @item
 <result>: What to do if the test is passed.
 
-@itemize 
+@itemize
 
 @item
 Carb: Mark the isolate as carbapenem resistant.
@@ -618,7 +618,7 @@ The corresponding parser line would be:
 Drug Info Format @ @ @ @ Name,Call,MIC
 @end example
 
-@item 
+@item
 Full Name: The full name of the patient.
 
 @item
@@ -626,24 +626,24 @@ Drugs per line: How many drugs are contained on a line of the input file.
 In this example, only one drug is found per line, like so:
 
 @example
-lastName	firstName	middleI	dmisId	spin	ssnPrefix	ssn	dob	gender	accession	isolationDate	cultureType	source	locationType	location	isolate	organism	alternateOrganism	equipment	antibiotic	mic	call	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Amikacin	<=2	S	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ampicillin	>=32	R	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Amp/Sulbactam	8	S	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Aztreonam	<=1	S	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Cefazolin	<=4	 	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Cefepime	<=1	S	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ceftriaxone	<=1	S	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ciprofloxacin	<=0.25	S	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ertapenem	<=0.5	 	
-A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	ESBL	Pos	+	
+lastName	firstName	middleI	dmisId	spin	ssnPrefix	ssn	dob	gender	accession	isolationDate	cultureType	source	locationType	location	isolate	organism	alternateOrganism	equipment	antibiotic	mic	call
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Amikacin	<=2	S
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ampicillin	>=32	R
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Amp/Sulbactam	8	S
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Aztreonam	<=1	S
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Cefazolin	<=4
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Cefepime	<=1	S
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ceftriaxone	<=1	S
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ciprofloxacin	<=0.25	S
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	Ertapenem	<=0.5
+A	A	A	0000	10142012000001212101		987654321	01/01/1888	F	12121	10/14/2012	URINE CULTURE			INTERNAL MED	01	K. pneumoniae		Vitek	ESBL	Pos	+
 @end example
 
 The MicroScan parser file looks for 45 drugs per line, like this:
 
 @example
 Last Name	First Name	Institution	Patient ID	Date of Birth	Gender	Specimen	Collect Date	Source	Isolate	Organism	Amikacin Interpretation	Amikacin MIC	Amox/K Clav Interpretation	Amox/K Clav MIC	Amp/Sulbactam Interpretation	Amp/Sulbactam MIC	Ampicillin Interpretation	Ampicillin MIC	Azithromycin Interpretation	Azithromycin MIC	Aztreonam Interpretation	Aztreonam MIC	Cefazolin Interpretation	Cefazolin MIC	Cefepime Interpretation	Cefepime MIC	Cefotaxime Interpretation	Cefotaxime MIC	Cefotetan Interpretation	Cefotetan MIC	Cefoxitin Interpretation	Cefoxitin MIC	Ceftazidime Interpretation	Ceftazidime MIC	Ceftriaxone Interpretation	Ceftriaxone MIC	Cefuroxime Interpretation	Cefuroxime MIC	Cephalothin Interpretation	Cephalothin MIC	Chloramphenicol Interpretation	Chloramphenicol MIC	Ciprofloxacin Interpretation	Ciprofloxacin MIC	Clarithromycin Interpretation	Clarithromycin MIC	Clindamycin Interpretation	Clindamycin MIC	Colistin Interpretation	Colistin MIC	Daptomycin Interpretation	Daptomycin MIC	Doripenem Interpretation	Doripenem MIC	Ertapenem Interpretation	Ertapenem MIC	Erythromycin Interpretation	Erythromycin MIC	Gatifloxacin Interpretation	Gatifloxacin MIC	Gentamicin Interpretation	Gentamicin MIC	Imipenem Interpretation	Imipenem MIC	Levofloxacin Interpretation	Levofloxacin MIC	Linezolid Interpretation	Linezolid MIC	Meropenem Interpretation	Meropenem MIC	Minocycline Interpretation	Minocycline MIC	Moxifloxacin Interpretation	Moxifloxacin MIC	Nitrofurantoin Interpretation	Nitrofurantoin MIC	Norfloxacin Interpretation	Norfloxacin MIC	Oxacillin Interpretation	Oxacillin MIC	Penicillin Interpretation	Penicillin MIC	Pip/Tazo Interpretation	Pip/Tazo MIC	Synercid Interpretation	Synercid MIC	Rifampin Interpretation	Rifampin MIC	Tetracycline Interpretation	Tetracycline MIC	Ticar/K Clav Interpretation	Ticar/K Clav MIC	Tigecycline Interpretation	Tigecycline MIC	Tobramycin Interpretation	Tobramycin MIC	Trimeth/Sulfa Interpretation	Trimeth/Sulfa MIC	Vancomycin Interpretation	Vancomycin MIC	ESBL Confirm Ceftazidime Interpretation	ESBL Confirm Ceftazidime MIC	ESBL-a Scrn Interpretation	ESBL-a Scrn MIC	ESBL-b Scrn Interpretation	ESBL-b Scrn MIC
-JOJO	JOEY		111223333	01/01/1888	Male	1		URINE	1	Escherichia coli	S	<=16	S	<=8/4	S	<=8/4	S	<=8			S	<=8	S	<=8	S	<=8	S	<=2			S	<=8	S	<=1	S	<=8	S	<=4					S	<=1									S	<=0.5	S	<=1					S	<=4	S	<=1	S	<=2									S	<=32							S	<=16					S	<=4			S	<=2	S	<=4	S	<=2/38								
+JOJO	JOEY		111223333	01/01/1888	Male	1		URINE	1	Escherichia coli	S	<=16	S	<=8/4	S	<=8/4	S	<=8			S	<=8	S	<=8	S	<=8	S	<=2			S	<=8	S	<=1	S	<=8	S	<=4					S	<=1									S	<=0.5	S	<=1					S	<=4	S	<=1	S	<=2									S	<=32							S	<=16					S	<=4			S	<=2	S	<=4	S	<=2/38
 @end example
 
 @end itemize
@@ -679,7 +679,7 @@ If the MIC of the drug is in between the two values, the program will call it
 indeterminate (I).
 
 If a breakpoints file is selected, and the input file contains an organism/drug
-combination absent from @strong{mdr.txt}, the program will write a warning and 
+combination absent from @strong{mdr.txt}, the program will write a warning and
 set the call to "X".
 
 @section carbapenem.txt
@@ -760,11 +760,11 @@ The first column is a common name. This name must be in ALL CAPS.
 
 The second name is used internally by the program. It must be genus and species.
 
-The last name is the display name used in the output files. It can be whatever 
-the user wants, but by default, it's the first letter of the genus, a dot, 
+The last name is the display name used in the output files. It can be whatever
+the user wants, but by default, it's the first letter of the genus, a dot,
 a space, and the species.
 
-The number at the end is the organism's SNOMED code. Currently the program 
+The number at the end is the organism's SNOMED code. Currently the program
 doesn't use this for anything, but it might at some point. This is optional, so
 feel free to leave it off.
 
@@ -817,7 +817,7 @@ The dropdown menu allows you to select which parser you want to use.
 
 @itemize @bullet
 @item
-Vitek1 - A parser for a text report from the bioMeriux VITEK2 machine 
+Vitek1 - A parser for a text report from the bioMeriux VITEK2 machine
 (format 1).
 
 @item
@@ -834,7 +834,7 @@ program, or "About" to see the program's license.
 
 After hitting "OK", select your input file. After the program calculates the
 necessary info, it'll either automatically write your files to the default
-locations specified in @strong{config.txt}, or it'll prompt you to give it a 
+locations specified in @strong{config.txt}, or it'll prompt you to give it a
 place to put them.
 
 @section Warnings
@@ -894,11 +894,11 @@ input file to me, and I'll fix whatever the problem is.
 
 @dfn{MDRevealer} itself is licensed under the GNU General Public License
 v3, or (at your discretion) any later version. For more information, please
-see GPL.txt. 
+see GPL.txt.
 
-This program uses libintl from GNU gettext 0.18.3, which is copyright (C) 2001, 
-2007 Free Software Foundation, Inc, and licensed under the LGPL version 2.1 
-or later. For more information, please see LGPL.txt. 
+This program uses libintl from GNU gettext 0.18.3, which is copyright (C) 2001,
+2007 Free Software Foundation, Inc, and licensed under the LGPL version 2.1
+or later. For more information, please see LGPL.txt.
 
 It also uses Apache Commons Collection, which is copyright (C) 2001-2013 The Apache Software Foundation, and licensed under the Apache License 2.0. For more information, please see Apache2.0.txt.
 
@@ -916,6 +916,12 @@ Spanish, Japanese, Welsh, Navajo, Esperanto, Klingon...
 Just download poedit (poedit.net), rename MDRevealer.po to your language's ISO
 631 code (en for English, fr for French, ar for Arabic, zh_TW for Traditional
 Chinese, etc.), and translate whatever strings you can.
+
+@item
+Rewrite the manual in Markdown. Nobody really uses Texinfo outside the GNU Project.
+
+@item
+General code cleanup.
 
 @end itemize
 
